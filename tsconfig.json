@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"target": "ES2022",
+		"outDir": "out",
+		"lib": [
+			"ES2022",
+			"DOM"
+		],
+		"sourceMap": true,
+		"rootDir": "source",
+		"strict": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUnusedParameters": true,
+		"jsx": "preserve",
+		"jsxImportSource": "solid-js",
+		"resolveJsonModule": true,
+	},
+	"include": [
+		"source"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}
